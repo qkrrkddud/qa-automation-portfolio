@@ -1,0 +1,8 @@
+[
+  { "username": "standard_user",           "password": "secret_sauce", "expect": "success" },
+  { "username": "locked_out_user",         "password": "secret_sauce", "expect": "error" },
+  { "username": "problem_user",            "password": "secret_sauce", "expect": "success" },
+  { "username": "performance_glitch_user", "password": "secret_sauce", "expect": "success" },
+  { "username": "",                         "password": "",             "expect": "error" },
+  { "username": "standard_user",           "password": "wrongpass",    "expect": "error" }
+]
